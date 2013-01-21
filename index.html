@@ -1,0 +1,28 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="navigator.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		<div id="pages">
+			<div id="home">
+				<div class="header">Home</div>
+				<div class="content">
+					<a href="#login">Login</a>
+				</div>
+			</div>
+			<div id="login">
+				<div class="header login_header">Login</div>
+				<div class="content">
+					<a href="#" onclick="nav.back();return false;">Back</div>
+				</div>
+			</div>
+		</div>
+		<script src="navigator.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var nav = new Navigator(document.getElementById("pages"),{"initPage":"home"});
+		</script>
+	</body>
+</html>
