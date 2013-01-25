@@ -48,6 +48,7 @@ body {
 
 .header #header_text {
 	margin:0px auto;
+	width:70%;
 	text-align:center;
 	color: white;
 	font-weight: bold;
